@@ -18,3 +18,5 @@ mb.disable() # turn the motors off
 ```
 
 That should pretty much do it. I think the code above is pretty clear, if you want to understand what the driver is doing. If something doesn't make sense, leave a comment!
+
+This code was based on [the moto:bit PXT extension](https://github.com/sparkfun/pxt-moto-bit).
