@@ -6,9 +6,11 @@ SparkFun provides a MakeCode extension for using this board, but no driver for w
 
 ## Usage
 
-The Python Editor doesn't support loading modules (I think), so the easiest thing to do right now is copy and paste the class into the editor. Once that's done, it's pretty easy to get things going:
+~~The Python Editor doesn't support loading modules (I think), so the easiest thing to do right now is copy and paste the class into the editor~~. The Python Editor supports creating additional files (in the `Project` tab). My suggestion is to create copy `motobit.py` contents into a new file. Once that's done, it's pretty easy to get things going:
 
 ```python
+from motobit import Motobit
+
 mb = Motobit()
 mb.set_motor_speed(Motobit.RIGHT, 55)
 mb.set_motor_speed(Motobit.LEFT, 55, reverse=True)
